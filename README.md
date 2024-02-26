@@ -1,33 +1,34 @@
-# FlashAI
+# FlashAI: AI-Powered Flashcard Generator
 
 ## Introduction
-FlashAI revolutionizes the way high school and college students study by transforming their notes into interactive flashcards. Leveraging the power of OpenAI's GPT APIs, FlashAI automates the creation of flashcards from textual content, enabling efficient, focused study sessions tailored to the user's personal learning material.
+FlashAI revolutionizes study habits by transforming user-provided text and PDF files into interactive flashcards. Integrating OpenAI's GPT model and custom-trained ML models, FlashAI automates the creation of flashcards, featuring automatic keyword highlighting and smart card scheduling, for a highly personalized learning experience.
 
 ## Key Features
-- **Automated Flashcard Creation:** Upload your notes, and FlashAI does the rest, converting them into concise, easy-to-review flashcards.
-- **Intelligent Question Generation:** Using advanced natural language processing, FlashAI generates relevant questions and answers from your notes, ensuring comprehensive coverage of topics.
-- **Personalized Learning Experience:** Tailor your study sessions with customizable flashcard sets, prioritizing areas you want to focus on.
-- **Progress Tracking:** Monitor your learning progress with intuitive dashboards that display your mastery over time.
+- **Comprehensive Input Support:** Processes both textual content and PDF files, making it easy to convert all your study materials into flashcards.
+- **Intelligent Content Analysis:** Utilizes custom-trained machine learning models for keyword highlighting and generating relevant questions, optimizing study efficiency.
+- **Personalized User Experience:** Supports user registration, authentication, and secure data storage, ensuring a safe and customized learning journey.
+- **Adaptive Learning:** Tailors flashcard sessions to the user's performance for more effective studying.
 
 ## Technologies Used
-FlashAI is built on a robust tech stack designed for performance and scalability:
-- **Next.js:** A React framework for building user-friendly server-side rendered applications.
-- **OpenAI GPT APIs:** For generating questions and answers from textual content.
-- **Firebase:** For user authentication, database management, and hosting.
-- **Tailwind CSS:** For styling and responsive design, ensuring a seamless user experience across devices.
+- **Frontend:** React (Next.js) for a dynamic and responsive user interface.
+- **Machine Learning:** OpenAI GPT for content generation, with custom models for keyword analysis and scheduling.
+- **Backend:** [Specify backend technology, e.g., Firebase, for user management and data storage.]
+- **Security:** Implementing industry-standard practices for user data protection and privacy.
 
 ## Current Work & Upcoming Features
 ### In Progress
-- **Adaptive Learning Algorithms:** Implementing machine learning to adapt flashcard sessions based on user performance, enhancing learning efficiency.
-- **Multi-Language Support:** Expanding our service to support note conversion in multiple languages, making FlashAI accessible to a wider audience.
+- Expanding to multi-language support, making our tools accessible globally.
+- Developing adaptive learning algorithms to further personalize the learning experience.
 
 ### Future Enhancements
-- **Voice Input:** Allowing users to input notes via voice, making flashcard creation even more effortless.
-- **Integration with Educational Platforms:** Enabling direct import of notes and textbooks from popular educational platforms for seamless flashcard generation.
-- **Collaborative Study Sessions:** Introducing features for users to study with peers, share flashcard sets, and compete on leaderboards, fostering a community of learners.
+- Adding voice input capabilities for easier note submission.
+- Planning integration with popular educational platforms for direct note import.
 
-## Contributing to FlashAI
-While the FlashAI core application is proprietary, we welcome ideas, feedback, and suggestions from the community. If you have innovative features in mind or want to discuss potential collaborations, please reach out to us at [your contact email].
+## Security & User Experience
+Ensuring a secure and personalized user journey is paramount. FlashAI implements advanced security measures for user data protection, alongside features for a customized study experience.
+
+## Contributing & Contact
+We're open to ideas and collaborations! Reach out to us at [your contact email] for any suggestions or inquiries.
 
 ## Stay Updated
-For the latest news, updates, and feature releases, follow us on [LinkedIn/Twitter/GitHub Pages link].
+Follow us on [Your Social Media Links] for the latest updates and feature releases.
