@@ -1,34 +1,37 @@
 # FlashAI: AI-Powered Flashcard Generator
 
 ## Introduction
-FlashAI revolutionizes study habits by transforming user-provided text and PDF files into interactive flashcards. Integrating OpenAI's GPT model and custom-trained ML models, FlashAI automates the creation of flashcards, featuring automatic keyword highlighting and smart card scheduling, for a highly personalized learning experience.
+FlashAI is revolutionizing the way highschool and college students study by converting their notes into interactive flashcards. By leveraging advanced AI technologies, including OpenAI's GPT model, FlashAI simplifies the study process, making learning more efficient and personalized.
 
 ## Key Features
-- **Comprehensive Input Support:** Processes both textual content and PDF files, making it easy to convert all your study materials into flashcards.
-- **Intelligent Content Analysis:** Utilizes custom-trained machine learning models for keyword highlighting and generating relevant questions, optimizing study efficiency.
-- **Personalized User Experience:** Supports user registration, authentication, and secure data storage, ensuring a safe and customized learning journey.
-- **Adaptive Learning:** Tailors flashcard sessions to the user's performance for more effective studying.
+- **Automatic Flashcard Creation:** Converts user-provided text and PDF files into interactive flashcards with the help of OpenAI's chat GPT model.
+- **Custom Machine Learning Models:** Employs sophisticated ML models for automatic keyword highlighting and smart scheduling, enhancing the learning experience.
+- **User Management:** Features user registration, authentication, and secure data storage, facilitated by Clerk, ensuring a seamless and secure user experience.
+- **Responsive Design:** A fully responsive homepage with clear calls to action, about, and contact sections, designed to provide an engaging user interface.
 
 ## Technologies Used
-- **Frontend:** React (Next.js) for a dynamic and responsive user interface.
-- **Machine Learning:** OpenAI GPT for content generation, with custom models for keyword analysis and scheduling.
-- **Backend:** [Specify backend technology, e.g., Firebase, for user management and data storage.]
-- **Security:** Implementing industry-standard practices for user data protection and privacy.
+- **Frontend:** Developed with React (Next.js), offering a dynamic and responsive design.
+- **Machine Learning:** Integration with OpenAI's GPT for flashcard generation and custom-trained models for enhanced learning.
+- **Backend & Security:** Utilizes Clerk for secure user signup and sign-in capabilities, alongside secure note uploading and processing.
+
+## Achievements
+- **Responsive Homepage:** A user-friendly interface with calls to action, about, and contact sections.
+- **User Signup and Sign-in:** Integrated with Clerk for secure and efficient user management.
+- **Note Processing:** Ability to upload or paste notes for automatic flashcard generation is fully functional.
 
 ## Current Work & Upcoming Features
 ### In Progress
-- Expanding to multi-language support, making our tools accessible globally.
-- Developing adaptive learning algorithms to further personalize the learning experience.
+- Implementing the ability to import flashcards from other platforms like Quizlet.
+- Developing features to allow users to share flashcards with friends.
+- Researching alternatives to OpenAI's model, such as using a local model or Llama, for cost-effective data processing.
 
-### Future Enhancements
-- Adding voice input capabilities for easier note submission.
-- Planning integration with popular educational platforms for direct note import.
-
-## Security & User Experience
-Ensuring a secure and personalized user journey is paramount. FlashAI implements advanced security measures for user data protection, alongside features for a customized study experience.
+## Future Enhancements
+- Multi-language support to cater to a global user base.
+- Voice input capabilities for easier note submission.
+- Direct integration with educational platforms for seamless note import.
 
 ## Contributing & Contact
-We're open to ideas and collaborations! Reach out to us at [your contact email] for any suggestions or inquiries.
+Interested in contributing or have suggestions? Contact us at [your contact email] for collaboration or inquiries.
 
 ## Stay Updated
-Follow us on [Your Social Media Links] for the latest updates and feature releases.
+Follow us on [https://github.com/DilrajS/FlashAI] to stay up to date with the latest developments and feature releases.
