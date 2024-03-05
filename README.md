@@ -33,7 +33,7 @@ FlashAI is at the forefront of transforming study habits for high school and col
 - Establishing direct integrations with educational platforms for seamless note and material import, enhancing the study experience.
 
 ## Contributing & Contact
-We welcome contributions, feedback, and suggestions to improve FlashAI further. Reach out to us at [your contact email] for any collaboration or inquiries.
+We welcome contributions, feedback, and suggestions to improve FlashAI further. Reach out to us at [FlashAI.info@gmail.com] for any collaboration or inquiries.
 
 ## Stay Updated
 For the latest updates and feature releases, follow our journey on [GitHub](https://github.com/DilrajS/FlashAI).
