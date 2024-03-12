@@ -41,7 +41,17 @@ The eastern chipmunk can climb trees well, but constructs underground nests with
 
 ### Prompt Version 3
 
-**Prompt**: "Transform the provided text into a structured set of flashcards, each designed to enhance test preparation efficiency. Construct each flashcard with a focus on essential ideas, framing a pertinent question on the front and its precise answer on the back. Format the output as a JSON array... Tailor the set to include exactly \${selectedValue} flashcards, optimizing for a comprehensive review of the material's most critical points."
+**Prompt**: "Transform the provided text into a structured set of flashcards, each designed to enhance test preparation efficiency. Your task is to distill key concepts and information from the following material: ${text}. Construct each flashcard with a focus on essential ideas, framing a pertinent question on the front and its precise answer on the back.
+
+Please format the output as a JSON array, where each element represents a single flashcard in the form of an object with 'front' and 'back' keys. The 'front' should contain the question, and the 'back' should provide the answer. Tailor the set to include exactly ${selectedValue} flashcards, optimizing for a comprehensive review of the material's most critical points.
+
+Example of desired output format:
+[
+  {"front": "What is the principle of X?", "back": "The principle of X is ..."},
+  {"front": "How does Y affect Z?", "back": "Y influences Z by ..."}
+]
+Ensure the questions are formulated to provoke thought and engagement, facilitating effective memorization and understanding of the subject matter. The answers should be concise yet informative, directly addressing the questions posed.
+"
 
 **Observations**:
 
