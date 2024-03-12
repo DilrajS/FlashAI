@@ -1,5 +1,7 @@
 # My Prompt Engineering Journey for FlashAI Using ChatGPT 3.5
 
+![FlashAI Prompt Engineering](FlashAI/images/FlashAI_Prompt.gif)
+
 ## Introduction
 
 This document outlines my journey through prompt engineering for FlashAI, leveraging ChatGPT 3.5. The primary objective was to input notes into the Large Language Model (LLM) and receive structured flashcards conducive to study and memorization.
@@ -8,7 +10,16 @@ This document outlines my journey through prompt engineering for FlashAI, levera
 
 ### Source Material
 
-The sample text used for generating flashcards, constant across all prompt iterations, detailed the etymology, description, habitat, and behavior of the eastern chipmunk, as sourced from [Wikipedia](https://en.wikipedia.org/wiki/Eastern_chipmunk).
+The sample text used for generating flashcards, constant across all prompt iterations, detailed the etymology, description, habitat, and behavior of the eastern chipmunk, as sourced from [Wikipedia](https://en.wikipedia.org/wiki/Eastern_chipmunk). Here is the text in detail:
+
+"The name "chipmunk" comes from the Ojibwe word ᐊᒋᑕᒨ ajidamoo (or possibly ajidamoonh, the same word in the Ottawa dialect of Ojibwe), which translates literally as "one who descends trees headlong." [9] First described by Mark Catesby in his 1743 The Natural History of Carolina, Florida, and the Bahama Islands, the chipmunk was eventually classified as Sciurus striatus by Linnaeus, meaning "striped squirrel" in Latin. [10][11] The scientific name was changed to Tamias striatus, meaning "striped steward," by Johann Illiger in 1811. [12]
+
+A small species, it reaches about 30 cm (12 in) in length including the tail, and a weight of 66–150 g (2.3–5.3 oz). [13] It has reddish-brown fur on its upper body and five dark brown stripes contrasting with light brown stripes along its back, ending in a dark tail. It has lighter fur on the lower part of its body. It has a tawny stripe that runs from its whiskers to below its ears, and light stripes over its eyes. It has two fewer teeth than other chipmunks and four toes each on the front legs, but five toes on the hind legs. [14] The chipmunk's appearance "remains consistent throughout life. There is no external difference in appearance between the sexes except the obvious anatomical characteristics of the genitalia during periods of fertility. Molt occurs once or twice annually, during May or June and sometimes again in October. Both albino and melanistic specimens have been observed, but without geographical regularity." [12]
+
+The eastern chipmunk lives in deciduous wooded areas and urban parks throughout the eastern United States and southern Canada. It prefers locations with rocky areas, brush or log piles, and shrubs to provide cover. [15]
+
+The eastern chipmunk can climb trees well, but constructs underground nests with extensive tunnel systems, often with several entrances. To hide the construction of its burrow, the eastern chipmunk is argued by some to carry soil to a different location in its cheek pouches. [16] However, recorded observations of chipmunks carrying soil in their cheek pouches are extremely limited. John Burroughs is noted as having written that "I used to think that the chipmunk carried away the soil in his cheek pouches, and have so-stated in one of my books [Riverby, 1894], but I am now certain that he does not—only his food stores are thus carried." [17] Chipmunks also line their burrows with leaves, rocks, sticks, and other material, making the burrows even harder to see. [16] "The vocal repertoire of the chipmunk consists of five more or less stereotyped sounds: the chip, the chuck, the trills, the whistle or squeal, and chatter." [18] The chipmunks' trilling has been measured to occur at the rate of 130 trills per minute. [14]"
+
 
 ### Prompt Version 1
 
