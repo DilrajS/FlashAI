@@ -24,6 +24,21 @@ The eastern chipmunk can climb trees well, but constructs underground nests with
 ### Prompt Version 1
 
 **Prompt**: "Use \${text} to generate the front and back of \${selectedValue} flashcards. The front should be a question and the back should be the answer."
+- *Output*:         "back": "Johann Illiger changed the scientific name to Tamias striatus, meaning 'striped steward.'"
+    },
+    {
+        "front": "Describe the appearance of the chipmunk.",
+        "back": "The chipmunk has reddish-brown fur on its upper body with five dark brown stripes along its back, ending in a dark tail. It has a tawny stripe from its whiskers to below its ears and light stripes over its eyes."
+    },
+    {
+        "front": "Where does the eastern chipmunk live?",
+        "back": "The eastern chipmunk lives in deciduous wooded areas and urban parks throughout the eastern United States and southern Canada."
+    },
+    {
+        "front": "What type of habitat does the eastern chipmunk prefer?",
+        "back": "The eastern chipmunk prefers locations with rocky areas, brush or log piles, and shrubs to provide cover."
+    }
+]
 
 **Observations**:
 
@@ -31,6 +46,37 @@ The eastern chipmunk can climb trees well, but constructs underground nests with
 - **Analysis**: The prompt needed refinement for more consistent output structuring.
 
 ### Prompt Version 2
+- *Output*: [
+    {
+        "front": "What is the etymology of the name 'chipmunk'?",
+        "back": "The name 'chipmunk' comes from the Ojibwe word ᐊᒋᑕᒨ ajidamoo, which translates literally as 'one who descends trees headlong.'"
+    },
+    {
+        "front": "Who first described the chipmunk?",
+        "back": "Mark Catesby described the chipmunk in his 1743 work 'The Natural History of Carolina, Florida, and the Bahama Islands.'"
+    },
+    {
+        "front": "What is the scientific classification of the chipmunk according to Linnaeus?",
+        "back": "Linnaeus classified the chipmunk as Sciurus striatus, meaning 'striped squirrel' in Latin."
+    },
+    {
+        "front": "What changes did Johann Illiger make to the scientific name of the chipmunk?",
+        "back": "Johann Illiger changed the scientific name to Tamias striatus, meaning 'striped steward.'"
+    },
+    {
+        "front": "Describe the appearance of the chipmunk.",
+        "back": "The chipmunk has reddish-brown fur on its upper body with five dark brown stripes along its back, ending in a dark tail. It has a tawny stripe from its whiskers to below its ears and light stripes over its eyes."
+    },
+    {
+        "front": "Where does the eastern chipmunk live?",
+        "back": "The eastern chipmunk lives in deciduous wooded areas and urban parks throughout the eastern United States and southern Canada."
+    },
+    {
+        "front": "What type of habitat does the eastern chipmunk prefer?",
+        "back": "The eastern chipmunk prefers locations with rocky areas, brush or log piles, and shrubs to provide cover."
+    }
+]
+
 
 **Prompt**: "Generate front and back content for a set of flashcards optimal for test preparation from the information: \${text}. Each flashcard should emphasize key concepts, with a question on the front and its corresponding answer on the back. Please provide the response in JSON format, where each flashcard is represented as an object with 'front' and 'back' as the components, like this: [{front: 'question', back: 'answer'}]. Ensure you produce exactly \${selectedValue} flashcard(s)."
 
@@ -40,6 +86,37 @@ The eastern chipmunk can climb trees well, but constructs underground nests with
 - **Analysis**: Specifying the output format as JSON significantly improved the structuring of the flashcards.
 
 ### Prompt Version 3
+- *Output*: [
+  {
+    "front": "What is the etymology of the name 'chipmunk'?",
+    "back": "The name 'chipmunk' comes from the Ojibwe word ᐊᒋᑕᒨ ajidamoo, meaning 'one who descends trees headlong.'"
+  },
+  {
+    "front": "Who first described the chipmunk?",
+    "back": "Mark Catesby first described the chipmunk in his 1743 work 'The Natural History of Carolina, Florida, and the Bahama Islands.'"
+  },
+  {
+    "front": "What does the scientific name 'Sciurus striatus' mean?",
+    "back": "The scientific name 'Sciurus striatus' means 'striped squirrel' in Latin."
+  },
+  {
+    "front": "Describe the appearance of the eastern chipmunk.",
+    "back": "The eastern chipmunk has reddish-brown fur on its upper body, five dark brown stripes along its back, and a tawny stripe from its whiskers to below its ears. It has lighter fur on its lower body."
+  },
+  {
+    "front": "Where does the eastern chipmunk live?",
+    "back": "The eastern chipmunk lives in deciduous wooded areas and urban parks throughout the eastern United States and southern Canada."
+  },
+  {
+    "front": "What is the behavior of the eastern chipmunk regarding nesting?",
+    "back": "The eastern chipmunk constructs underground nests with extensive tunnel systems, often with several entrances. It lines its burrows with leaves, rocks, sticks, and other material."
+  },
+  {
+    "front": "What is the vocal repertoire of chipmunks?",
+    "back": "The vocal repertoire of chipmunks consists of five sounds: chip, chuck, trills, whistle or squeal, and chatter. Their trilling can occur at a rate of 130 trills per minute."
+  }
+]
+
 
 **Prompt**: "Transform the provided text into a structured set of flashcards, each designed to enhance test preparation efficiency. Your task is to distill key concepts and information from the following material: ${text}. Construct each flashcard with a focus on essential ideas, framing a pertinent question on the front and its precise answer on the back.
 
