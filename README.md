@@ -1,5 +1,7 @@
 # FlashAI: AI-Powered Flashcard Generator
 
+![FlashAI Prompt Engineering](images/FlashAI_Banner.gif)
+
 ## Introduction
 FlashAI is pioneering the transformation of study habits for high school and college students by converting their notes into dynamic, interactive flashcards. Utilizing the cutting-edge AI technologies, including OpenAI's GPT model, FlashAI makes the learning process more efficient, personalized, and engaging.
 
