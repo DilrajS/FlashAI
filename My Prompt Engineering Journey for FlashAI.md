@@ -1,4 +1,4 @@
-# My Prompt Engineering Journey for FlashAI Using ChatGPT 3.5
+# My Prompt Engineering Journey for FlashAI using OpenAI's GPT
 
 ![FlashAI Prompt Engineering](images/FlashAI_Prompt.gif)
 
