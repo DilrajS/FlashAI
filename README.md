@@ -61,8 +61,9 @@ We welcome contributions, feedback, and suggestions to enhance FlashAI. Contact 
 
 ### Code Availability
 
-The source code for FlashAI is available upon request. Please contact FlashAI.info@gmail.com or, preferably, my personal email for access or any inquiries.
+You can view the source code here: [FlashAI Code](https://github.com/DilrajS/FlashAI_Project_Demo). 
 
 ## Stay Updated
 
-For the latest updates and feature releases, follow our journey on [GitHub](https://github.com/DilrajS/FlashAI).
+For the latest updates and feature releases, follow our journey on [GitHub](https://github.com/DilrajS/FlashAI). 
+Please contact FlashAI.info@gmail.com or, preferably, my personal email for any inquiries.
